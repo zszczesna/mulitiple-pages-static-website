@@ -1,0 +1,40 @@
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #162447;
+}
+
+h1,
+h3,
+p {
+  color: white;
+}
+
+.prime-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prime-links a {
+  text-decoration: none;
+  color: #1b1b2f;
+  padding: 20px;
+  background-color: #e43f5a;
+  border-radius: 40px;
+}
+
+.prime-links a:hover {
+  color: #1f4068;
+  text-decoration: underline;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #e43f5a;
+}
+
+.contact-link:hover {
+  color: #ff6363;
+  text-decoration: underline;
+}
